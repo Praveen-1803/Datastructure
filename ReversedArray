@@ -18,11 +18,11 @@ public class ReverseArray {
             System.out.print(arr[i] + " ");
         }
 
-        // Reversing the array
+        
         int start = 0;
         int end = size - 1;
         while (start < end) {
-            // Swap the elements at start and end
+            
             int temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
